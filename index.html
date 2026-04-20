@@ -12,21 +12,32 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #181818; /* AppBackground */
+            color: #A9B7C6; /* TextcolorNormal */
         }
         .container {
             text-align: center;
             padding: 2rem;
-            background: white;
+            background: #2F2F2F; /* HistoryBackground */
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border: 1px solid #D55252; /* RedError */
         }
         h1 {
             margin-bottom: 0.5rem;
+            color: #4285F4; /* TextcolorSelected */
         }
         p {
-            color: #666;
+            color: #A9B7C6; /* TextcolorNormal */
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #545252; /* UnselectedDiceField */
+            margin: 1rem 0;
+        }
+        .coming-soon {
+            color: #FCBD02; /* TextcolorAdvantage2 */
+            font-weight: bold;
         }
     </style>
 </head>
@@ -35,7 +46,7 @@
         <h1>Minima Publishing LLC</h1>
         <p>Software Publishing & Distribution</p>
         <hr>
-        <p>Coming Soon</p>
+        <p class="coming-soon">Coming Soon</p>
     </div>
 </body>
 </html>
